@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .container{
+            border: 1px solid gainsboro;
+            width: auto;
+            height: 90vh;
+            text-align: center;
+            align-items: center;
+            display: block;
+            background-color: gainsboro;
+        }
+        
+       
+        .container1{
+           
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+
+
+        }
+
+        .content{
+            width: 200px;
+            height: 325spx;
+            border: 2px solid pink;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+        }
+        .para1{
+            font-size: 14px;
+        }
+        .para2{
+            font-size: 14px;
+        }
+       
+        .para{
+            font-size: 12px;
+            text-align: center;
+        }
+        
+
+        .content1{
+            width: 200px;
+            height: 325spx;
+            border: 2px solid pink;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        button{
+            text-align: center;
+            align-items: center;
+            background-color: palevioletred;
+            color: white;
+            border: 1px solid palevioletred;
+            margin-bottom: 20px;
+        }
+           
+        .img1{
+            position: relative;
+        }
+       .text-container1{
+            position: absolute;
+            bottom: 1px;
+            color: white;
+            font-size: 20px;
+            padding-left: 50px;   
+       }
+       .img2{
+            position: relative;
+        }
+       .text-container2{
+            position: absolute;
+            bottom: 1px;
+            color: white;
+            font-size: 20px;
+            padding-left: 30px;   
+       }
+
+
+    </style>
+</head>
+<body>
+    
+    
+    
+        
+        <div class="container">
+            <h1>Flexbox Blog-Card</h1>
+        
+           <div class="container1">
+            <div class="content">
+                <div class="img1">
+                    <img src="./ncity.jpg" width="200px" height="150px"/>
+                    <div class="text-container1">
+                        <h3>New York</h3>
+                    </div>
+                </div>
+                <div>
+                    <P class="para1"><i class="fa-regular fa-calendar-days"></i>AUG 4 &nbsp &nbsp &nbsp &nbsp &nbsp &#9829 102</P>
+        
+                </div>
+                
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam.</p>
+    
+                <div>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+    
+            <div class="content1">
+                <div class="img2">
+                    <img src="./scity.jpg" width="200px" height="150px"/>
+                    <div class="text-container2">
+                        <h3>San Francisco</h3>
+                    </div>
+                </div>
+                
+                <div>
+                    <P class="para2"><i class="fa-regular fa-calendar-days"></i>AUG 1 &nbsp &nbsp &nbsp &nbsp &nbsp &#9829 265</P>
+        
+                </div>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam.</p>
+    
+                <div>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+           </div>
+        </div>
+    
+</body>
+</html>
